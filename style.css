@@ -1,0 +1,98 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(to right top, #008ffdea, #00385d, #85c4e8, #228bc4, #006494);
+}
+
+.header img {
+	width: 200px;
+	height: 10%;
+	margin-left: -15px;
+}
+
+.login_div {
+	background: rgba(242, 151, 151, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button {
+	width: 80%;
+	border-radius: 15px;
+}
+
+.room_name {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout {
+	font-size: 20px;
+	float: right;
+}
+
+
+#output {
+	padding: 10px;
+	width: 80%;
+	background: rgba(249, 170, 170, 0.8);
+	border-radius: 15px;
+}
+
+.input_div_room_page {
+	width: 80%;
+}
+
+.input_div label {
+	color: rgb(117, 114, 114);
+	font-size: 20px;
+}
+
+
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(175, 146, 146, 0.8);
+}
+
+.input_div_message_page label {
+	color: rgb(54, 52, 52);
+}
+
+.input_div_message_page #msg {
+	width: 80%;
+}
+
+.input_div_message_page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.color_white {
+	color: rgb(207, 202, 202)
+}
+
+.user_tick {
+	width: 20px;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: rgb(255, 12, 12);
+}
+#user_name{
+	text-align: center;
+	color: rgb(52, 0, 67);
+}
